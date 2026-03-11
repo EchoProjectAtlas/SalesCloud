@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Default</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Provide governance sign-off prior to submitting a proposal and or pricing (RFP / RFI indicative and firm and binding)​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Secure approval to submit from the EDRA Board given the presented business case and risk profile​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;This is typically seeking approval that is NOT ROM – pricing as part of an RFI / RFP requirement ​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Note: EDRA3 approval is required each time there is a material change to the offer or the associated risk profile&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Approve to Submit</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Contract change is defined as a change to the scope of the contract: Legal T&amp;amp;Cs, Pricing, Products, Services, SLAs and contracting entities (which are not in, or are different from, the current contracted scope)​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Change which was pre-approved and is specified in the contract (framework)​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;EDRA 5 does not include any new services or products; these must be taken via the EDRA process for approval as new opportunities​&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Change/Renewal Management</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;strong&gt;Revise techniques to increase future wins.&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;What contributed to losing this opportunity?&lt;/li&gt;&lt;li&gt;What do we need to do differently to improve our chances of winning?&lt;/li&gt;&lt;li&gt;Schedule a follow-up task or event for this account.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Closed Lost</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CloseDate</fieldNames>
+        <fieldNames>Amount</fieldNames>
+        <info>&lt;img alt=&quot;User-added image&quot; src=&quot;https://d1t000000gesueak.file.force.com/servlet/rtaImage?eid=1CF1t0000004S4k&amp;amp;feoid=Info&amp;amp;refid=0EM1t0000001DbB&quot; style=&quot;height: 118px; width: 500px;&quot;&gt;&lt;/img&gt;</info>
+        <picklistValueName>Closed Won</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Provide an effective qualification mechanism for all opportunities where bid support is required​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Ensure that opportunity is clear and comprehensive enough to assess​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Ensure that an opportunity is profitable, winnable, and deliverable for Echo - in the sweet spot !&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Plan</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Provide governance approval of the final negotiated position prior to contract signature &amp;amp; final draft contract​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Validate the business case / P&amp;amp;L (cash flow and revenues) ​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Confirm the delivery plan and commit necessary resources in accordance with the plan​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Understand all risks and their mitigation &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Proceed to Contract</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Provide an effective qualification mechanism for all opportunities where bid support is required​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Ensure that opportunity is clear and comprehensive enough to assess​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Ensure that an opportunity is profitable, winnable, and deliverable for Echo - in the sweet spot !&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Qualification Matrix and Opportunity overview deck - Required for review &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Sign On</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

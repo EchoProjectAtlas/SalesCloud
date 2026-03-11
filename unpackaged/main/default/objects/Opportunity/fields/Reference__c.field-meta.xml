@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Reference assigned to the Opportunity</description>
+    <displayFormat>EMS {00000000}</displayFormat>
+    <externalId>false</externalId>
+    <label>Reference</label>
+    <type>AutoNumber</type>
+</CustomField>

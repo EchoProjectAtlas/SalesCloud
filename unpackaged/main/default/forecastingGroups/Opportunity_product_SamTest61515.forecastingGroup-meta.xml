@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Opportunity_product_SamTest61515</developerName>
+    <forecastingGroupItems>
+        <displayPosition>0</displayPosition>
+        <sourceApiValue>Back office services</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>9</displayPosition>
+        <sourceApiValue>Revenue protection</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>10</displayPosition>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>8</displayPosition>
+        <sourceApiValue>Software - both</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>7</displayPosition>
+        <sourceApiValue>Software - RX Licence</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>1</displayPosition>
+        <sourceApiValue>Contact centre</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>4</displayPosition>
+        <sourceApiValue>Office_debt</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>2</displayPosition>
+        <sourceApiValue>Debt - both</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>3</displayPosition>
+        <sourceApiValue>Field debt</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>5</displayPosition>
+        <sourceApiValue>Software - Aptumo</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>6</displayPosition>
+        <sourceApiValue>Software - RapidXtra</sourceApiValue>
+    </forecastingGroupItems>
+    <groupField>Opportunity_product__c</groupField>
+    <masterLabel>Opportunity product Sam Test</masterLabel>
+    <sourceObject>Opportunity</sourceObject>
+</ForecastingGroup>
